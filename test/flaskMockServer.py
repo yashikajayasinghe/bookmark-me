@@ -1,7 +1,6 @@
-import string
 from flask import Flask, make_response
 from flask import jsonify
-import json
+
 
 app = Flask("zippo")
 
