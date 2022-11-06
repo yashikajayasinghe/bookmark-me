@@ -1,5 +1,5 @@
-##This Project Consists the implementation of the Service and its' Tests
-###Refer to the following dorectories for details:
+##This Project Consists of the implementation for the Service and its Tests
+###Refer to the following directories for details:
 - api - App Implementation
 - test - Tests
 
