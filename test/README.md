@@ -1,11 +1,14 @@
-##How to run Mock App Server
+## How to run Mock App Server
 - Change to test folder in a termnal
 - run `python .\flaskMockServer.py`
-- It will show the status: i.e.: 
-* Running on http://127.0.0.1:5000 <Press CTRL+C to quit>
-* Restarting with stat
-* Debugger is active!
-* Debugger PIN: ###-###-###
+  
+> #### It will show the status as follows: 
+> - Running on http://127.0.0.1:5000 <Press CTRL+C to quit>
+> - Restarting with stat
+> - Debugger is active!
+> - Debugger PIN: ###-###-###
+
+
 
 ## How to run Tests Locally
 
@@ -17,14 +20,14 @@
 - Run the test: Change to `test` directory and run `pytest -v -E e2e`
 
 
-### Run Tests Locally with Mocked Downstream Data
+### Run Tests with Mocked Downstream Data
 - Mock App Server should be up and running for this test to pass
 - Run the test: Change to `test` directory and run  `pytest -v -E acceptance`
 
-Ref: 
-Flask
-https://flask.palletsprojects.com/en/2.2.x/api/
-https://flask.palletsprojects.com/en/2.2.x/testing/
+## Ref: 
+### Flask
+- https://flask.palletsprojects.com/en/2.2.x/api/
+- https://flask.palletsprojects.com/en/2.2.x/testing/
 
-Pytest Custom Markers
-https://docs.pytest.org/en/7.1.x/example/markers.html
+### Pytest Custom Markers
+- https://docs.pytest.org/en/7.1.x/example/markers.html

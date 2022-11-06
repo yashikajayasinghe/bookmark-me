@@ -1,17 +1,24 @@
 # bookmark-me
 
+### Run Locally
 
-Ref:
-Azure Functions Python Dev Guide
-https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level&pivots=python-mode-decorators
-Fast-Api_Azure function:
-https://github.com/Azure-Samples/fastapi-on-azure-functions
-https://www.youtube.com/watch?v=CvG1UmYSiv4 
-https://fastapi.tiangolo.com/tutorial/query-params/
+  - open the App implementation in the location `api\FindCityTrigger\__init__.py`
+  - Run the App locally (f5 in VScode or in command line with Azure Core Tools: `func host start`)
 
-Azure-Cosmos_Db
-https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-python-and-fastapi/
 
-Unit Testing: https://fastapi.tiangolo.com/tutorial/testing/#__tabbed_1_1
- Mocking: https://flask.palletsprojects.com/en/2.2.x/api/
- https://www.twilio.com/blog/asynchronous-http-requests-in-python-with-httpx-and-asyncio
+- PROD:: 
+<https://bookmark-me.azurewebsites.net/find_city_by_post_code?country=ENTER COUNTRY CODE ALPHA 2&postcode =ENTER POSTCODE INT>
+
+### Ref:
+## Azure Functions Python Dev Guide
+- <https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level&pivots=python-mode-decorators>
+
+## Fast-Api_Azure function:
+- <https://github.com/Azure-Samples/fastapi-on-azure-functions>
+- <https://www.youtube.com/watch?v=CvG1UmYSiv4>
+- <https://fastapi.tiangolo.com/tutorial/query-params/>
+
+> Unit Testing: <https://fastapi.tiangolo.com/tutorial/testing/#__tabbed_1_1>
+> Mocking: 
+> <https://flask.palletsprojects.com/en/2.2.x/api/>
+> <https://www.twilio.com/blog/asynchronous-http-requests-in-python-with-httpx-and-asyncio>
