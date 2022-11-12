@@ -5,10 +5,6 @@
   - open the App implementation in the location `api\FindCityTrigger\__init__.py`
   - Run the App locally (f5 in VScode or in command line with Azure Core Tools: `func host start`)
 
-
-- PROD:: 
-<https://bookmark-me.azurewebsites.net/find_city_by_post_code?country=ENTER COUNTRY CODE ALPHA 2&postcode =ENTER POSTCODE INT>
-
 ### Ref:
 ## Azure Functions Python Dev Guide
 - <https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level&pivots=python-mode-decorators>
