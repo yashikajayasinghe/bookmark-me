@@ -1,4 +1,6 @@
 
+```pip install -r requirements.txt```
+
 https://dotnetthoughts.net/developing-and-deploying-azure-functions-with-codespaces/
 
 ```wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
@@ -11,3 +13,6 @@ Once installed, you can run func --version command in the terminal - which shoul
 https://microsoft.github.io/AzureTipsAndTricks/blog/tip364.html
 
 ```npm i -g azure-functions-core-tools@4 --unsafe-perm true```
+
+
+https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-project-for-codespaces?langId=py
